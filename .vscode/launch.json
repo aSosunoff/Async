@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\concat.js"
+            "program": "${workspaceFolder}\\each.js"
         }
     ]
 }
