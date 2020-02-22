@@ -1,6 +1,10 @@
 const async = require('async');
 
-async.concat([test_1, test_2, test_3], (item, callback) => {
+async.concat([
+    test_1, 
+    test_2, 
+    test_3
+], (item, callback) => {
     item(callback);
 }, (err, result) => {
     if(err)
